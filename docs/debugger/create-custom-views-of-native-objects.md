@@ -690,7 +690,7 @@ Each type defined in the *.natvis* file must explicitly list any UI visualizers 
  You can see an example of a `UIVisualizer` in the [Image Watch](https://marketplace.visualstudio.com/search?term=%22Image%20Watch%22&target=VS&category=All%20categories&vsVersion=&sortBy=Relevance) extension used to view in-memory bitmaps.
 
 ### <a name="BKMK_CustomVisualizer"></a>CustomVisualizer element
- `CustomVisualizer` is an extensibility point that specifies a VSIX extension that you write to control visualizations in Visual Studio code. For more information about writing VSIX extensions, see the [Visual Studio SDK](../extensibility/visual-studio-sdk.md).
+ `CustomVisualizer` is an extensibility point that specifies a VSIX extension that you write to control visualizations in Visual Studio. For more information about writing VSIX extensions, see the [Visual Studio SDK](../extensibility/visual-studio-sdk.md).
 
 It's a lot more work to write a custom visualizer than an XML Natvis definition, but you're free from constraints about what Natvis does or doesn't support. Custom visualizers have access to the full set of debugger extensibility APIs, which can query and modify the debuggee process or communicate with other parts of Visual Studio.
 
